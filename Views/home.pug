@@ -1,0 +1,56 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+    style
+     include ../static/style.css
+block content 
+    
+
+
+    section#introsection
+        div Welcome to Divyansh's Dance Academy             
+        div.small  Dance Sleep Repeat       
+
+
+    section#Missionsection
+        h2 Our Mission
+        div.card 
+           h3 Dance perfection 
+           div.card-box
+                div.card-img 
+                    img(src="/static/dance.png")
+                
+                div.card-content 
+                    p This is the Best Dance Academy of the City
+
+        div.card 
+           h3 Dance the Way you love
+           div.card-box
+                div.card-img
+                    img(src="/static/ulta.png")
+                
+                div.card-content 
+                    p We teach all the Dance Styles
+
+        div.card 
+           h3 Our expert Teaching
+           div.card-box
+                div.card-img3 
+                    img(src="/static/tdance.png")
+                
+                div.card-content
+                    p We have Experts teachers of all the Styles
+    section#Sponsersection
+        h2 our sponsers
+        div#sponser 
+            img(src="/static/1.png",alt="sponser Image", Class="spImage")
+            img(src="/static/sponser.png",alt="sponser Image", Class="spImage")
+            img(src="/static/2.jpg",alt="sponser Image", Class="spImage")
+            img(src="/static/image.png",alt="sponser Image", Class="spImage")
+
+    
+        script
+         include ../static/index.js    

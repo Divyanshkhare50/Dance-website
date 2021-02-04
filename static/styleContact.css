@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+h1{
+ text-align: center;   
+ 
+  margin: 12px 0;
+
+
+}
+
+.container{
+  justify-content: center;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 8px 0;
+}
+.container h1{
+font-family: 'Lemonada', cursive;
+font-size: 39px;
+
+
+
+}
+.myForm{
+
+display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myinput{
+    
+        font-size: 16px;
+        border: 2px solid #6b8a1999;
+        width: 40%;
+        padding: 9px;
+        margin: 8px;
+        border-radius: 13px;   
+        outline: none;
+        
+}
+
+.btn {
+  padding: 5px 30px;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 12px;
+  color: white;
+  background: #201c1a;
+  outline: none;
+  cursor: pointer;
+  margin: 16px;
+}

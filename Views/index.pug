@@ -1,0 +1,64 @@
+//-  index.pug
+doctype html
+html    
+    head
+        style
+         include ../static/style.css
+    body
+        nav#navbar
+            ul
+                #logo
+                    img(src="/static/logo1.jpg")
+                    | HDA
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Contact Us]
+
+
+    section#introsection
+        div Welcome to Divyansh's Dance Academy             
+        div.small  Dance Sleep Repeat       
+
+
+    section#Missionsection
+        h2 Our Mission
+        div.card 
+           h3 Dance perfection 
+           div.card-box
+                div.card-img 
+                    img(src="/static/dance.png")
+                
+                div.card-content 
+                    p This is the Best Dance Academy of the City
+
+        div.card 
+           h3 Dance the Way you love
+           div.card-box
+                div.card-img
+                    img(src="/static/ulta.png")
+                
+                div.card-content 
+                    p We teach all the Dance Styles
+
+        div.card 
+           h3 Our expert Teaching
+           div.card-box
+                div.card-img3 
+                    img(src="/static/tdance.png")
+                
+                div.card-content
+                    p We have Experts teachers of all the Styles
+    section#Sponsersection
+        h2 our sponsers
+        div#sponser 
+            img(src="/static/1.png",alt="sponser Image", Class="spImage")
+            img(src="/static/sponser.png",alt="sponser Image", Class="spImage")
+            img(src="/static/2.jpg",alt="sponser Image", Class="spImage")
+            img(src="/static/image.png",alt="sponser Image", Class="spImage")
+
+    footer#footer
+        |Copyright © 2021 DivyanshDanceAcademy.com | All rights  reserved
+        script
+         include ../static/index.js    
